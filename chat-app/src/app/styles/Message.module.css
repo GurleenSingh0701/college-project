@@ -1,0 +1,28 @@
+.MessageElement {
+    width: fit-content;
+    padding: 15px;
+    border-radius: 8px;
+    min-width: 60px;
+    position: relative;
+    text-align: right;
+}
+
+.Sender {
+    margin-left: auto;
+    background-color: #dcf8c6;
+}
+
+.Receiver {
+    text-align: left;
+    background-color: whitesmoke;
+}
+
+.Timestamp {
+    color: gray;
+    padding: 10px;
+    font-size: 9px;
+    position: absolute;
+    bottom: 0;
+    text-align: right;
+    right: 0;
+}
